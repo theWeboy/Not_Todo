@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:linear-gradient(0deg,rgb(250, 246, 230),rgba(254, 255, 169, 0.829)),url(https://previews.123rf.com/images/stockerteam/stockerteam1610/stockerteam161000040/64577822-it-business-icons-pattern-on-white-background-Stock-Photo.jpg);
+  min-height: 100vh;
 }
 
 code {

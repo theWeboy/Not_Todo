@@ -1,0 +1,105 @@
+.Board{
+	text-align: center;
+	min-height: 410px;
+	min-width: 300px;
+	background-color: rgb(248, 247, 237);
+	border-radius: 5px;
+	padding: 20px;
+	margin: 15px 25px;
+	box-shadow: 1px 5px 4px #dadada;
+}
+
+/* Board header styles */
+.board-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 8.5px 0;
+	background-color: rgb(248, 247, 237);
+}
+
+.board-title{
+	font-size:18px;
+	padding:10px 10px 10px 5px;
+	display:block;
+	width:80%;
+	border:none;
+	border-bottom:1px solid #757575;
+	background-color: inherit;
+}
+
+.board-title:focus{outline: none}
+
+.remove-board{
+	background-color: rgb(240, 167, 167);
+	cursor: pointer;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	font-weight: 200;
+	font-size: 13px;
+	box-shadow: 2px 3px 4px #dadada;
+	margin-bottom: 40px;
+}
+
+.remove-board:hover{
+	background-color: rgb(238, 145, 145);
+}
+
+.remove-board:focus{ outline: none; }
+
+/* END - Board header styles */
+
+/* Board input form styles */
+.inputForm{
+	margin-top: 8px;
+	margin-bottom: 14px;
+	padding-top: 8px;
+}
+
+.todoInput{
+	font-size:14px;
+	padding:10px 10px 10px 5px;
+	width:60%;
+	border-radius: 4px;
+	border-bottom:1px solid #757575;
+	border: none;
+	background-color: rgb(255, 253, 247);
+}
+
+.todoInput:focus{outline: none}
+
+/* END - Board input form styles */
+
+/* Board list container styles */
+.output-list{
+	padding: 7px;
+	margin-top: 0;
+	margin-bottom: 16px;
+	max-height: 234px;
+	overflow: scroll;
+}
+.output-list > :first-child{
+	margin-top: 0 !important;
+}
+
+.add-btn{
+	width: 65px;
+	height: 30px;
+	background-color: rgb(137, 184, 185);
+	border-radius: 7px;
+	box-shadow: 2px 5px 4px #dadada;
+	cursor: pointer;
+	margin-left: 12px;
+  }
+
+.add-btn:hover{background-color: rgb(94, 164, 173);}
+
+.add-btn:focus{outline: none}
+
+.btn-secondary{
+	cursor: pointer;
+}
+
+/* END - Board list container styles */
+
