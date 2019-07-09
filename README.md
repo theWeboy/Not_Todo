@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Cargo-React 👋</h1>
+<h1 align="center">Welcome to Not-Todo 👋</h1>
 <p>
   <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 	<a href="https://github.com/theweboy/Not_Todo/blob/master/LICENSE.md">
