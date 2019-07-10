@@ -16,7 +16,7 @@
 To try this app locally, clone this repository and start your own Git journey!
 
 ```bash
-$ git clone https://github.com/theweboy/Not_Todo 
+$ git clone https://github.com/theWeboy/Not_Todo.git
 $ cd Not_Todo
 $ yarn 
 ```
